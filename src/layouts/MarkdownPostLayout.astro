@@ -1,0 +1,64 @@
+---
+// src/layouts/MarkdownPostLayout.astro
+const { frontmatter } = Astro.props;
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{frontmatter.title} | LUG Blog</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fafafa;
+        }
+        .nav-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #0066cc;
+            text-decoration: none;
+        }
+        .nav-link:hover { text-decoration: underline; }
+        .post-container {
+            background: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        .post-header {
+            margin-bottom: 30px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 20px;
+        }
+        .post-title { margin: 0 0 10px 0; font-size: 2.5rem; }
+        .post-date { color: #666; font-style: italic; margin: 0; }
+        .post-image {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 6px;
+            margin-bottom: 20px;
+        }
+        .post-content img { max-width: 100%; height: auto; border-radius: 4px; }
+    </style>
+</head>
+<body>
+    <a href="/blog" class="nav-link">← Back to Blog Archive</a>
+    <main class="post-container">
+        {frontmatter.coverImage && <img src={frontmatter.coverImage} alt={frontmatter.title} class="post-image" />}
+        <header class="post-header">
+            <h1 class="post-title">{frontmatter.title}</h1>
+            <p class="post-date">Published on {frontmatter.date}</p>
+        </header>
+        <div class="post-content">
+            <slot />
+        </div>
+    </main>
+</body>
+</html>
