@@ -4,7 +4,7 @@ export const SITE: Site = {
   website: "https://test.hardlug.com/",
   author: "Mark Anderson",
   desc: "Testing a new website format for the HaRdLUG LEGO Fan Community.",
-  title: "HaRdBlog!",
+  title: "HaRdLug",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 3,
@@ -25,35 +25,27 @@ export const LOGO_IMAGE = {
 
 export const SOCIALS: SocialObjects = [
   {
-    name: "Github",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: ` ${SITE.title} on Github`,
-    active: true,
-  },
-  {
     name: "Facebook",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://facebook.com/hardlug",
     linkTitle: `${SITE.title} on Facebook`,
     active: true,
   },
   {
     name: "Instagram",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://instagram.com/hardlug",
     linkTitle: `${SITE.title} on Instagram`,
     active: true,
   },
-
   {
     name: "Mail",
-    href: "mailto:yourmail@gmail.com",
+    href: "mailto:hardlug2002@gmail.com",
     linkTitle: `Send an email to ${SITE.title}`,
-    active: false,
+    active: true,
   },
-
   {
     name: "Discord",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://discord.gg/uNxdQyMfby",
     linkTitle: `${SITE.title} on Discord`,
-    active: false,
+    active: true,
   },
 ];
