@@ -3,7 +3,7 @@ HaRdLUG is a group of adults and older teens in the cities of Hampton Roads, Vir
 - We build to challenge ourselves, to relax, or for a creative outlet.
 - We use LEGO to share stories, to learn, or to teach.
 - We follow the latest product releases and innovations, and we dive deep into LEGO history.
-- We make it up as we go, or we follow instructions.  We might even  write our own instructions.
+- We make it up as we go, or we follow instructions.  We might even write our own instructions.
 - We value creativity, collaboration, and community.
 
 We share our passion for LEGO by displaying what we build at public events throughout our region, and are always looking for fun new partnerships which match our volunteer members' interests with the goals of organizations hosting community events.
@@ -14,7 +14,13 @@ HaRdLUG has been a Recognized Lego User Group under the LEGO Ambassador Network 
 If you're interested in joining us, just come to one of our meetings.  You can find meeting details on this website.
 The most important measure of membership in HaRdLUG is participation.  Show up; we'd love to meet you.
 
+## How to join:
 As part of becoming a Recognized LEGO Fan Community in 2027, we will begin operating under formal bylaws.  Membership will require monthly dues and be tied to certain benefits, but we plan to always welcome friends new or old who prefer more casual participation.
 
+## What's with the name?
+The "HaRd" in our name is a creative abbreviation for one of the several names for our region, Hampton Roads, Virginia.  Hampton Roads itself is the name of the historic waterway where the Chesapeake Bay, James River, and Elizabeth River all come together.  The name has also come to collectively identify the Seven Citites in our area, Norfolk, Portsmouth, Virginia Beach, Chesapeake, Suffolk, Hampton, and Newport News.  Friends in Williamsburg, nearby counties, and across the line in North Carolina are of course welcome too, but connections are more important than proximity, however they happen!
+
 ## Feedback & Suggestions
-If you have any suggestions/feedback about the website or HaRdLUG, you can contact the webmaster via [my email](mailto:leggodt@duck.com) or our [leadership team](hardlug2002@gmail.com).
+If you have any suggestions/feedback about the website or HaRdLUG, you can contact the webmaster (Mark) via [my email](mailto:leggodt@duck.com) or reach out to our [leadership team](hardlug2002@gmail.com) about other matters
+
+"Do the other things, not because they are easy, but because they are HaRd." - John F. Kennedy
