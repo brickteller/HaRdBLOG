@@ -15,6 +15,7 @@ If you're interested in joining us, just come to one of our meetings.  You can f
 The most important measure of membership in HaRdLUG is participation.  Show up; we'd love to meet you.
 
 ## How to join:
+Show up!  HaRdLUG is driven by participation.  Show up at a meeting to get to know us, what we're about, and what we're working on.  Bring something you've built, or just yourself.  If you like what you see, consider attending one of our events or participating in one of our collaborative projects.  You can display something you built, or come help staff our tables, and talk to the attendees who share our love for LEGO. 
 As part of becoming a Recognized LEGO Fan Community in 2027, we will begin operating under formal bylaws.  Membership will require monthly dues and be tied to certain benefits, but we plan to always welcome friends new or old who prefer more casual participation.
 
 ## What's with the name?
