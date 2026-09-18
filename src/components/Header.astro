@@ -13,9 +13,9 @@ const { activeNav } = Astro.props;
 <header>
   <a id="skip-to-content" href="#main-content">Skip to content</a>
   <div class="nav-container">
-  <div class="top-nav-wrap">
+<div class="top-nav-wrap">
   <div class="brand">
-    <a href="/" class="logo whitespace-nowrap">
+    <a href="/" class="logo">
       {
         LOGO_IMAGE.enable ? (
           <img
@@ -135,39 +135,37 @@ const { activeNav } = Astro.props;
   #skip-to-content {
     @apply absolute -top-full left-16 z-50 bg-skin-accent px-3 py-2 text-skin-inverted transition-all focus:top-4;
   }
+.top-nav-wrap {
+  @apply relative flex w-full items-center justify-between p-4 sm:py-8;
+}
+
+.brand {
+  @apply flex min-w-0 items-center gap-2;
+}
+
+.logo {
+  @apply shrink-0 py-1;
+}
+
+.site-title {
+  @apply whitespace-nowrap text-lg font-semibold sm:text-xl;
+}
+
+.rss-link {
+  @apply shrink-0 rounded border border-skin-line px-2 py-1 text-xs font-medium hover:text-skin-accent;
+}
+
+nav {
+  @apply ml-auto flex w-auto flex-col items-end sm:ml-2 sm:flex-row sm:justify-end sm:space-x-4 sm:py-0;
+}
   .nav-container {
     @apply mx-auto flex max-w-3xl flex-col items-center justify-between sm:flex-row;
-  }
-  .top-nav-wrap {
-    @apply relative flex w-full items-start justify-between p-4 sm:items-center sm:py-8;
-  }
-  .logo {
-    @apply absolute py-1 text-xl font-semibold sm:static sm:text-2xl;
   }
   .hamburger-menu {
     @apply self-end p-2 sm:hidden;
   }
   .hamburger-menu svg {
-.brand {
-  @apply flex items-center gap-2;
-}
-
-.logo {
-  @apply py-1;
-}
-
-.site-title {
-  @apply text-lg font-semibold sm:text-xl;
-}
-
-.rss-link {
-  @apply rounded border border-skin-line px-2 py-1 text-xs font-medium hover:text-skin-accent;
-}    
-@apply h-6 w-6 scale-125 fill-skin-base;
-  }
-
-  nav {
-    @apply flex w-full flex-col items-center sm:ml-2 sm:flex-row sm:justify-end sm:space-x-4 sm:py-0;
+    @apply h-6 w-6 scale-125 fill-skin-base;
   }
   nav ul {
     @apply mt-4 grid w-44 grid-cols-2 grid-rows-4 gap-x-2 gap-y-2 sm:ml-0 sm:mt-0 sm:w-auto sm:gap-x-5 sm:gap-y-0;
