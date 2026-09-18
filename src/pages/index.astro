@@ -23,13 +23,15 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <Header />
   <main id="main-content">
     <section id="hero">
-      <img
-        src="/assets/hardVAlogo.png"
-        alt="Map-style HaRdLUG logo"
-        width="517"
-        height="492"
-        class="mx-auto mb-6 h-auto w-48 max-w-full object-contain sm:w-64"
-      />
+      <di class="flex-container"v>
+        <img
+          src="/assets/hardVAlogo.png"
+          alt="Map-style HaRdLUG logo"
+          width="517"
+          height="492"
+          class="mx-auto mb-6 h-auto w-48 max-w-full object-contain sm:w-64"
+        />
+      <\div>
       <a
         target="_blank"
         href="/rss.xml"
@@ -151,6 +153,10 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   }
   .social-links {
     @apply mb-1 mr-2 whitespace-nowrap sm:mb-0;
+  }
+  .flex-container {
+   display: flex;
+   justify-content: flex-end; /* Pushes the image to the right */ 
   }
 
   /* ===== Featured & Recent Posts Sections ===== */
