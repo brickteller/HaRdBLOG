@@ -148,7 +148,22 @@ const { activeNav } = Astro.props;
     @apply self-end p-2 sm:hidden;
   }
   .hamburger-menu svg {
-    @apply h-6 w-6 scale-125 fill-skin-base;
+.brand {
+  @apply flex items-center gap-2;
+}
+
+.logo {
+  @apply py-1;
+}
+
+.site-title {
+  @apply text-lg font-semibold sm:text-xl;
+}
+
+.rss-link {
+  @apply rounded border border-skin-line px-2 py-1 text-xs font-medium hover:text-skin-accent;
+}    
+@apply h-6 w-6 scale-125 fill-skin-base;
   }
 
   nav {
