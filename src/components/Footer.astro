@@ -30,18 +30,10 @@ const { noMarginTop = false } = Astro.props;
     @apply w-full;
   }
 .footer-wrapper {
-  @apply flex flex-col items-center gap-2 py-4;
+  @apply flex flex-col gap-3 py-4 sm:flex-row sm:items-center sm:justify-between;
 }
-  .link-button {
-    @apply my-1 p-2 hover:rotate-6;
-  }
-  .link-button svg {
-    @apply scale-125;
-  }
+
 .copyright-wrapper {
-  @apply flex flex-col items-center gap-1 text-center text-xs leading-relaxed;
+  @apply flex flex-col gap-1 text-left text-xs leading-relaxed;
 }
-  .separator {
-    @apply hidden sm:inline;
-  }
 </style>
