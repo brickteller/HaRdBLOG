@@ -1,9 +1,8 @@
 ---
-layout: "../layouts/Layout.astro"
+layout: "../layouts/AboutLayout.astro"
 title: "About HaRdLUG"
-description: "About the HaRdLUG community."
+description: "About the Hampton Roads LEGO User Group."
 ---
-
 # About HaRdLUG
 HaRdLUG is a group of adults and older teens in the cities of Hampton Roads, Virginia using LEGO to connect with our local community and each other and celebrating that play is something you never outgrow.
 
