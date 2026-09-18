@@ -15,7 +15,11 @@ const { noMarginTop = false } = Astro.props;
   <Hr noPadding />
   <div class="footer-wrapper">
      <div class="copyright-wrapper">
-       <span>© {currentYear} HaRdLUG. All rights reserved.</span>
+  <div class="footer-meta">
+    <span>© {currentYear} HaRdLUG. All rights reserved.</span>
+    <span aria-hidden="true">|</span>
+    <a href="/bylaws/">Bylaws</a>
+  </div>
        <span>
          LEGO® is a trademark of the LEGO Group of companies, which does not sponsor,
          authorize, or endorse this site.
@@ -32,7 +36,9 @@ const { noMarginTop = false } = Astro.props;
 .footer-wrapper {
   @apply flex flex-col gap-3 py-4 sm:flex-row sm:items-center sm:justify-between;
 }
-
+.footer-meta {
+  @apply flex flex-row items-center gap-2;
+}
 .copyright-wrapper {
   @apply flex flex-col gap-1 text-left text-xs leading-relaxed;
 }
