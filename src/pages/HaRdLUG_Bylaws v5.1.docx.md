@@ -1,3 +1,9 @@
+---
+layout: "../layouts/Layout.astro"
+title: "HaRdLUG Bylaws"
+description: "Governing rules of the Hampton Roads LEGO User Group."
+---
+
 **Hampton Roads LEGO® User Group (HARDLUG) Bylaws** 
 
 Last revised – 06/08/2026
