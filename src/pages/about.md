@@ -1,4 +1,5 @@
 ---
+layout: "../layouts/Layout.astro"
 title: "About HaRdLUG"
 description: "About the HaRdLUG community."
 ---
