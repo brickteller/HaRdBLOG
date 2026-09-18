@@ -20,12 +20,12 @@ HaRdLUG has been a Recognized Lego User Group under the LEGO Ambassador Network 
 
 ## Come meet us:
 If you're interested in joining us, just come to one of our meetings. You can find meeting details on this website.
-The most important measure of membership in HaRdLUG is participation. Show up; we'd love to meet you.
+The most important measure of membership in HaRdLUG is participation. Show up; we'd love to meet you!
 
 ## How to join:
 Show up! HaRdLUG is driven by participation. Show up at a meeting to get to know us, what we're about, and what we're working on. Bring something you've built, or just yourself. If you like what you see, consider attending one of our events or participating in one of our collaborative projects. You can display something you built, or come help staff our tables, and talk to the attendees who share our love for LEGO.
 
-As part of becoming a Recognized LEGO Fan Community in 2027, we will begin operating under formal bylaws. Membership will require monthly dues and be tied to certain benefits, but we plan to always welcome friends new or old who prefer more casual participation.
+As part of becoming a Recognized LEGO Fan Community, we will begin operating under formal bylaws. Membership will require monthly dues and be tied to certain benefits, but we plan to always welcome friends new or old who prefer more casual participation.
 
 ## What's with the name?
 The "HaRd" in our name is a creative abbreviation for one of the several names for our region, Hampton Roads, Virginia. Hampton Roads itself is the name of the historic waterway where the Chesapeake Bay, James River, and Elizabeth River all come together.
