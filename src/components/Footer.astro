@@ -14,15 +14,15 @@ const { noMarginTop = false } = Astro.props;
 <footer class={`${noMarginTop ? "" : "mt-auto"}`}>
   <Hr noPadding />
   <div class="footer-wrapper">
-    <Socials centered />
-    <div class="copyright-wrapper">
-      <span>© {currentYear} HaRdLUG. All rights reserved.</span>
-      <span>
-        LEGO® is a trademark of the LEGO Group of companies, which does not sponsor,
-        authorize, or endorse this site.
-      </span>
-    </div>
-  </div>
+     <div class="copyright-wrapper">
+       <span>© {currentYear} HaRdLUG. All rights reserved.</span>
+       <span>
+         LEGO® is a trademark of the LEGO Group of companies, which does not sponsor,
+         authorize, or endorse this site.
+       </span>
+     </div>
+  <Socials />
+</div>
 </footer>
 
 <style>
