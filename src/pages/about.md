@@ -34,6 +34,8 @@ The "HaRd" in our name is a creative abbreviation for one of the several names f
 The name has also come to collectively identify the Seven Citites in our area, Norfolk, Portsmouth, Virginia Beach, Chesapeake, Suffolk, Hampton, and Newport News. Friends in Williamsburg, nearby counties, and across the line in North Carolina are of course welcome too, but connections are more important than proximity, however they happen!
 
 ## Feedback & Suggestions
-If you have any suggestions/feedback about the website or HaRdLUG, you can contact the webmaster (Mark) via [my email](mailto:leggodt@duck.com) or reach out to our [leadership team](mailto:hardlug2002@gmail.com) about other matters
+If you have any suggestions/feedback about the website or HaRdLUG, you can contact the webmaster (Mark) via [my email](mailto:leggodt@duck.com) or reach out to our [leadership team](mailto:hardlug2002@gmail.com) about other matters.
+
+For the organization’s governing rules, see the [HaRdLUG Bylaws](/bylaws/).
 
 "Do the other things, not because they are easy, but because they are HaRd." - John F. Kennedy
