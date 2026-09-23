@@ -1,3 +1,13 @@
+---
+title: "How to To Be A Better Builder"
+description: "A quick rundown of suggestions and resources for anyone to work towards being a better builder."
+pubDatetime: 2026-10-10T18:00:00Z
+tags:
+  - community
+  - builds
+  - resources
+draft: false
+---
 New and aspiring builders often see amazing creations online and at LEGO conventions and expos and wonder if they could ever build like that. The creators they admire all once thought the same thing. Fortunately, there are a lot of great ways to up your brick-building game.
 
 ## Why Building Practice Matters
