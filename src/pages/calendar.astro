@@ -21,7 +21,7 @@ import Footer from "../components/Footer.astro";
 <div class="calendar-wrapper calendar-desktop">
   <iframe
     title="HaRdLUG Events Calendar"
-        src="https://calendar.google.com/calendar/embed?src=hardlug2002%40gmail.com&ctz=America%2FNorfolk" 
+        src="https://calendar.google.com/calendar/embed?src=hardlug2002%40gmail.com&ctz=America%2FNew York" 
     loading="lazy"
     referrerpolicy="no-referrer-when-downgrade"
   ></iframe>
@@ -30,7 +30,7 @@ import Footer from "../components/Footer.astro";
 <div class="calendar-wrapper calendar-mobile">
   <iframe
     title="HaRdLUG Events Agenda"
-        src="https://calendar.google.com/calendar/embed?src=hardlug2002%40gmail.com&ctz=America%2FNorfolk&mode=AGENDA"
+        src="https://calendar.google.com/calendar/embed?src=hardlug2002%40gmail.com&ctz=America%2FNew York&mode=AGENDA"
     loading="lazy"
     referrerpolicy="no-referrer-when-downgrade"
   ></iframe>
@@ -50,22 +50,22 @@ import Footer from "../components/Footer.astro";
     @apply block w-full border-0;
     min-height: 700px;
   }
-</style>
 
-.calendar-mobile {
-  display: none;
-}
-
-@media (max-width: 639px) {
-  .calendar-desktop {
+  .calendar-mobile {
     display: none;
   }
 
-  .calendar-mobile {
-    display: block;
-  }
+  @media (max-width: 639px) {
+    .calendar-desktop {
+      display: none;
+    }
 
-  .calendar-wrapper iframe {
-    min-height: 600px;
+    .calendar-mobile {
+      display: block;
+    }
+
+    .calendar-wrapper iframe {
+      min-height: 600px;
+    }
   }
-}
+</style>
