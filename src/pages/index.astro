@@ -36,6 +36,24 @@ const socialCount = SOCIALS.filter(social => social.active).length;
         Roads, Virginia using LEGO to connect with our local community and each
         other and celebrating that play is something you should never outgrow.
       </p>
+
+<section class="upcoming-events">
+  <h2>Upcoming HaRdLUG Events</h2>
+
+  <div class="agenda-preview">
+    <iframe
+      title="Upcoming HaRdLUG Events"
+      src="https://calendar.google.com/calendar/embed?src=hardlug2002%40gmail.com&ctz=America%2FNew_York&mode=AGENDA&showTitle=0&showPrint=0&showTabs=0&showCalendars=0&showTz=0"
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+  </div>
+
+  <p class="calendar-link">
+    <a href="/calendar/">View the full calendar</a>
+  </p>
+</section>
+
       <p>
         Read the blog posts or check
         <LinkButton
@@ -153,4 +171,26 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   .all-posts-btn-wrapper {
     @apply my-8 text-center;
   }
+
+.upcoming-events {
+  @apply mx-auto mt-10 max-w-3xl px-4;
+}
+
+.upcoming-events h2 {
+  @apply mb-4 text-2xl font-semibold;
+}
+
+.agenda-preview {
+  @apply overflow-hidden rounded border border-skin-line bg-skin-card;
+  height: 360px;
+}
+
+.agenda-preview iframe {
+  @apply block w-full border-0;
+  height: 700px;
+}
+
+.calendar-link {
+  @apply mt-3 text-center;
+}
 </style>
