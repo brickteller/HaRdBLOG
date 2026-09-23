@@ -19,7 +19,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
 const socialCount = SOCIALS.filter(social => social.active).length;
 ---
 
-<Layout>
+<Layout title="HardLUG Home">
   <Header />
   <main id="main-content">
     <section id="hero">
@@ -37,11 +37,6 @@ const socialCount = SOCIALS.filter(social => social.active).length;
         other and celebrating that play is something you should never outgrow.
       </p>
 
----
-import Layout from '../layouts/Layout.astro';
----
-
-<Layout title="HardLUG Home">
   <main style="max-width: 800px; margin: 0 auto; padding: 20px; font-family: sans-serif;">
     <h2 style="color: #333; border-bottom: 2px solid #ccc; padding-bottom: 10px;">HardLUG Event Schedule</h2>
     <p style="color: #666; margin-bottom: 20px;">All events are synced automatically from our native Discord server channels.</p>
@@ -59,8 +54,6 @@ import Layout from '../layouts/Layout.astro';
     <p style="margin-top: 30px;">Read the blog posts or check About for more info.</p>
     <p>Social Links:</p>
   </main>
-</Layout>
-
 
       <p>
         Read the blog posts or check
