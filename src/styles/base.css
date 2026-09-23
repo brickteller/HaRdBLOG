@@ -134,3 +134,18 @@ html[data-theme="dark"] {
     @apply outline-2 outline-offset-1 outline-skin-fill focus-visible:no-underline focus-visible:outline-dashed;
   }
 }
+
+/* Force spacing between elements in the tags container */
+.tags-container a, 
+#tags a, 
+a[href^="/tags/"] {
+    display: inline-flex !important;
+    align-items: center !important;
+    column-gap: 6px !important;
+}
+
+/* Ensure any overlapping pseudo-elements push out away from the text */
+a[href^="/tags/"]::before {
+    margin-right: 6px !important;
+    position: relative !important;
+}
