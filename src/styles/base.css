@@ -164,3 +164,20 @@ a[href^="/tags/"] svg {
     flex-shrink: 0 !important;
     position: relative !important;
 }
+
+/* Fix for Desktop Chromium/Edge Overlapping Hashtag Glitch */
+.prose .tags-container a,
+#main-content a[href^="/tags/"] {
+    display: inline-flex !important;
+    align-items: center !important;
+    column-gap: 0.35rem !important;
+    white-space: nowrap !important;
+}
+
+/* Force the hashtag graphic block to preserve its structural box dimensions */
+#main-content a[href^="/tags/"] svg,
+#main-content a[href^="/tags/"] span {
+    margin-right: 4px !important;
+    display: inline-block !important;
+    flex-shrink: 0 !important;
+}
