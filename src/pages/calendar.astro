@@ -21,7 +21,7 @@ import Footer from "../components/Footer.astro";
 <div class="calendar-wrapper calendar-desktop">
   <iframe
     title="HaRdLUG Events Calendar"
-        src="https://calendar.google.com/calendar/embed?src=hardlug2002%40gmail.com&ctz=America%2FNew York" 
+        src="https://calendar.google.com/calendar/embed?src=hardlug2002%40gmail.com&ctz=America%2FNew%20York" 
     loading="lazy"
     referrerpolicy="no-referrer-when-downgrade"
   ></iframe>
@@ -30,11 +30,56 @@ import Footer from "../components/Footer.astro";
 <div class="calendar-wrapper calendar-mobile">
   <iframe
     title="HaRdLUG Events Agenda"
-        src="https://calendar.google.com/calendar/embed?src=hardlug2002%40gmail.com&ctz=America%2FNew York&mode=AGENDA"
+        src="https://calendar.google.com/calendar/embed?src=hardlug2002%40gmail.com&ctz=America%2FNew%20York&mode=AGENDA"
     loading="lazy"
     referrerpolicy="no-referrer-when-downgrade"
   ></iframe>
 </div>
+    <!-- Insert right below the mobile calendar wrapper div -->
+    <section class="mt-12 text-skin-base" style="font-family: inherit;">
+      <h2 class="text-xl font-bold tracking-wide text-skin-accent mb-4" style="margin-top: 1.5rem;">📍 Our Regular Meeting Locations</h2>
+      <p class="text-sm opacity-90 mb-6" style="margin-bottom: 1.5rem;">
+        When you spot an event on the calendar above, match the location name to the physical addresses and map links below:
+      </p>
+
+      <div class="space-y-6" style="display: flex; flex-direction: column; gap: 1.5rem;">
+        <!-- Location 1 -->
+        <div class="p-5 rounded border border-skin-line bg-skin-card" style="padding: 1.25rem;">
+          <h3 class="text-lg font-bold text-skin-base">Virginia Martial Arts Center (Chesapeake)</h3>
+          <p class="mt-1 text-sm"><strong>Address:</strong> 3325 Taylor Rd, Chesapeake, VA 23321</p>
+          <p class="mt-2 text-xs italic opacity-80" style="margin-top: 0.5rem;">Typically hosting our Southside club gatherings.</p>
+          <a 
+            href="https://google.com" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            class="inline-block mt-3 text-sm text-skin-accent hover:underline font-semibold" style="margin-top: 0.75rem;">
+            View Driving Directions &rarr;
+          </a>
+        </div>
+
+        <!-- Location 2 -->
+        <div class="p-5 rounded border border-skin-line bg-skin-card" style="padding: 1.25rem;">
+          <h3 class="text-lg font-bold text-skin-base">Fox Hill Community Center (Hampton)</h3>
+          <p class="mt-1 text-sm"><strong>Address:</strong> 65 Hall Rd, Hampton, VA 23664</p>
+          <p class="mt-2 text-xs italic opacity-80" style="margin-top: 0.5rem;">Typically hosting our Peninsula club gatherings.</p>
+          <a 
+            href="https://google.com" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            class="inline-block mt-3 text-sm text-skin-accent hover:underline font-semibold" style="margin-top: 0.75rem;">
+            View Driving Directions &rarr;
+          </a>
+        </div>
+      </div>
+
+      <!-- IN-PERSON BOUNDARY GATEWAY -->
+      <div class="mt-8 p-4 bg-skin-card border-l-4 border-skin-accent rounded-r text-skin-base" style="margin-top: 2rem; padding: 1rem; border-left-width: 4px;">
+        <p class="font-bold">👋 New to the club?</p>
+        <p class="text-sm mt-1 leading-relaxed" style="margin-top: 0.25rem;">
+          You are completely welcome to attend any of our monthly meetings listed here! Just show up, bringing yourself, a friend, or a custom creation (MOC) if you have one.  After we meet, ask a member about access to our private Discord server to stay connected with HaRdLUG.
+        </p>
+      </div>
+    </section>
 
   </main>
 
