@@ -1,7 +1,7 @@
 ---
 title: "How to To Be A Better Builder"
 description: "A quick rundown of suggestions and resources for anyone to work towards being a better builder."
-pubDatetime: 2026-10-10T18:00:00Z
+pubDatetime: 2025-02-14T18:00:00Z
 tags:
   - community
   - builds
