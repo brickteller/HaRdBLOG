@@ -60,3 +60,21 @@ import Footer from "../components/Footer.astro";
     min-height: 700px;
   }
 </style>
+
+.calendar-mobile {
+  display: none;
+}
+
+@media (max-width: 639px) {
+  .calendar-desktop {
+    display: none;
+  }
+
+  .calendar-mobile {
+    display: block;
+  }
+
+  .calendar-wrapper iframe {
+    min-height: 600px;
+  }
+}
