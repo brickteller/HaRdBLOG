@@ -1,0 +1,44 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+---
+
+<Layout
+  title="Calendar | HaRdLUG"
+  description="Upcoming HaRdLUG events."
+>
+  <Header />
+
+  <main id="main-content" class="mx-auto w-full max-w-3xl px-4 py-8">
+    <article class="prose">
+      <h1>HaRdLUG Calendar</h1>
+
+      <p>
+        Upcoming HaRdLUG events are created and managed through our Discord server.
+      </p>
+    </article>
+
+    <div class="calendar-wrapper">
+      <iframe
+        title="HaRdLUG Events Calendar"
+        src="https://calendar.google.com/calendar/u/3?cid=aGFyZGx1ZzIwMDJAZ21haWwuY29t"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+  </main>
+
+  <Footer />
+</Layout>
+
+<style>
+  .calendar-wrapper {
+    @apply mt-6 overflow-hidden rounded border border-skin-line bg-skin-card;
+  }
+
+  .calendar-wrapper iframe {
+    @apply block w-full border-0;
+    min-height: 700px;
+  }
+</style>
