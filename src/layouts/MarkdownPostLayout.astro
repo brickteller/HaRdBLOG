@@ -46,6 +46,37 @@ const { frontmatter } = Astro.props;
             margin-bottom: 20px;
         }
         .post-content img { max-width: 100%; height: auto; border-radius: 4px; }
+        
+        /* Fixed Tags Layout Area */
+        .tags-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px dashed #eee;
+        }
+        .tag-pill {
+            background-color: #f0f0f0;
+            color: #444;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+        }
+        .tag-pill:hover {
+            background-color: #e0e0e0;
+            color: #000;
+        }
+        /* The cushioning buffer fixing the hashtag layout overlap */
+        .tag-hash {
+            color: #888;
+            margin-right: 4px;
+            font-weight: bold;
+            user-select: none;
+        }
     </style>
 </head>
 <body>
@@ -59,6 +90,17 @@ const { frontmatter } = Astro.props;
         <div class="post-content">
             <slot />
         </div>
+
+        {/* Dynamic Tags Engine Block */}
+        {frontmatter.tags && frontmatter.tags.length > 0 && (
+            <div class="tags-container">
+                {frontmatter.tags.map((tag) => (
+                    <a href={`/tags/${tag}`} class="tag-pill">
+                        <span class="tag-hash">#</span>{tag}
+                    </a>
+                ))}
+            </div>
+        )}
     </main>
 </body>
 </html>
