@@ -4,7 +4,7 @@ import Hr from "./Hr.astro";
 import LinkButton from "./LinkButton.astro";
 
 export interface Props {
-  activeNav?: "posts" | "tags" | "about" | "search";
+  activeNav?: "posts" | "tags" | "about" | "calendar" | "search";
 }
 
 const { activeNav } = Astro.props;
@@ -85,6 +85,14 @@ const { activeNav } = Astro.props;
               About
             </a>
           </li>
+<li>
+  <a
+    href="/calendar/"
+    class={activeNav === "calendar" ? "active" : ""}
+  >
+    Calendar
+  </a>
+</li>
           <li>
             <LinkButton
               href="/search/"
@@ -94,6 +102,7 @@ const { activeNav } = Astro.props;
               ariaLabel="search"
               title="Search"
             >
+
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="scale-125 sm:scale-100"
