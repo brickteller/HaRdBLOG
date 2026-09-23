@@ -149,3 +149,18 @@ a[href^="/tags/"]::before {
     margin-right: 6px !important;
     position: relative !important;
 }
+
+/* Fix for Microsoft Edge Desktop Overlapping Tag Icon Glitch */
+a[href^="/tags/"] {
+    display: inline-flex !important;
+    align-items: center !important;
+    text-decoration: none !important;
+}
+
+/* Force space between the inline SVG hash icon and the first letter */
+a[href^="/tags/"] svg {
+    margin-right: 8px !important;
+    display: inline-block !important;
+    flex-shrink: 0 !important;
+    position: relative !important;
+}
