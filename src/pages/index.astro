@@ -36,16 +36,17 @@ const socialCount = SOCIALS.filter(social => social.active).length;
         Roads, Virginia using LEGO to connect with our local community and each
         other and celebrating that play is something you should never outgrow.
       </p>
+
 ---
 import Layout from '../layouts/Layout.astro';
 ---
 
-<Layout title="Club Event Calendar">
+<Layout title="HardLUG Home">
   <main style="max-width: 800px; margin: 0 auto; padding: 20px; font-family: sans-serif;">
-    <h1 style="color: #333; border-bottom: 2px solid #ccc; padding-bottom: 10px;">HardLUG Event Schedule</h1>
+    <h2 style="color: #333; border-bottom: 2px solid #ccc; padding-bottom: 10px;">HardLUG Event Schedule</h2>
     <p style="color: #666; margin-bottom: 20px;">All events are synced automatically from our native Discord server channels.</p>
     
-    <!-- Mobile-Optimized Calendar Wrapper -->
+    <!-- Mobile-Responsive Calendar Wrapper -->
     <div style="position: relative; padding-bottom: 75%; height: 0; overflow: hidden; max-width: 100%; border: 1px solid #ddd; border-radius: 8px;">
       <iframe 
         src="https://google.com" 
@@ -54,8 +55,12 @@ import Layout from '../layouts/Layout.astro';
         scrolling="no">
       </iframe>
     </div>
+
+    <p style="margin-top: 30px;">Read the blog posts or check About for more info.</p>
+    <p>Social Links:</p>
   </main>
 </Layout>
+
 
       <p>
         Read the blog posts or check
