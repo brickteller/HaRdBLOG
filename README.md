@@ -1,5 +1,5 @@
 # About HaRdLUG
-HaRdLUG is a group of adults and older teens in the cities of Hampton Roads, Virginia using LEGO to connect with our local community and each other and celebrating that play is something you never outgrow.
+HaRdLUG is a group of adults and older teens in the region of Hampton Roads, Virginia using LEGO to connect with our local community and each other and celebrating that play is something you never outgrow.
 - We build to challenge ourselves, to relax, or for a creative outlet.
 - We use LEGO to share stories, to learn, or to teach.
 - We follow the latest product releases and innovations, and we dive deep into LEGO history.
