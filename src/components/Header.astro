@@ -2,12 +2,14 @@
 import { LOGO_IMAGE, SITE } from "@config";
 import Hr from "./Hr.astro";
 import LinkButton from "./LinkButton.astro";
-
+---
+---
 export interface Props {
   activeNav?: "posts" | "tags" | "about" | "calendar" | "search";
 }
 
 const { activeNav } = Astro.props;
+
 ---
 
 <header>
@@ -32,14 +34,18 @@ const { activeNav } = Astro.props;
 
     <span class="site-title">{SITE.title}</span>
 
-    <a
-      href="/rss.xml"
-      class="rss-link"
-      aria-label="RSS feed"
-      title="RSS Feed"
-    >
-      RSS
-    </a>
+    <span class="site-title" style="margin-right: 15px;">{SITE.title}</span>
+
+    <!-- Web-Optimized CoLab Badge Integration -->
+    <div style="max-width: 110px; display: inline-flex; align-items: center; vertical-align: middle; margin-right: auto;">
+      <img 
+        src="/assets/brick-of-recognition.png" 
+        alt="Recognized LEGO® Fan Community" 
+        width="110" 
+        height="55" 
+        style="width: 100%; height: auto; border-radius: 4px; object-fit: contain;"
+      />
+    </div>
   </div>
 
   <nav id="nav-menu">
