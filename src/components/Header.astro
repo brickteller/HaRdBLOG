@@ -135,8 +135,7 @@ const { activeNav } = Astro.props;
         </ul>
       </nav>
     </div>
-  </div>
-      <!-- Astro Optimized CoLab Badge -->
+    <!-- Astro Optimized CoLab Badge -->
     <div style="max-width: 110px; display: inline-flex; align-items: center; vertical-align: middle; margin-left: 12px; margin-right: auto;">
       <Image 
         src={recognitionBrick} 
@@ -147,8 +146,8 @@ const { activeNav } = Astro.props;
         quality="high"
         class="object-contain rounded"
       />
-      
-    </div></script>
+    </div>
+  </div>
   <Hr />
 </header>
 
@@ -261,3 +260,4 @@ nav {
 
   // Runs on view transitions navigation
   document.addEventListener("astro:after-swap", toggleNav);
+</script>
