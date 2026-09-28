@@ -34,19 +34,6 @@ const { activeNav } = Astro.props;
 
     <span class="site-title">{SITE.title}</span>
 
-    <!-- Astro Optimized CoLab Badge -->
-    <div style="max-width: 110px; display: inline-flex; align-items: center; vertical-align: middle; margin-left: 12px; margin-right: auto;">
-      <Image 
-        src={recognitionBrick} 
-        alt="Recognized LEGO® Fan Community Badge" 
-        width={220}
-        height={110}
-        format="webp"
-        quality="high"
-        class="object-contain rounded"
-      />
-    </div>
-
     <a
       href="/rss.xml"
       class="rss-link"
@@ -84,7 +71,7 @@ const { activeNav } = Astro.props;
             <line x1="6" y1="6" x2="18" y2="18" class="close"></line>
           </svg>
         </button>
-        <ul id="menu-items" class="display-none sm:flex items-center">
+        <ul id="menu-items" class="display-none sm:flex">
           <li>
             <a href="/posts/" class={activeNav === "posts" ? "active" : ""}>
               Posts
@@ -261,4 +248,17 @@ nav {
 
   // Runs on view transitions navigation
   document.addEventListener("astro:after-swap", toggleNav);
-</script>
+
+    <!-- Astro Optimized CoLab Badge -->
+    <div style="max-width: 110px; display: inline-flex; align-items: center; vertical-align: middle; margin-left: 12px; margin-right: auto;">
+      <Image 
+        src={recognitionBrick} 
+        alt="Recognized LEGO® Fan Community Badge" 
+        width={220}
+        height={110}
+        format="webp"
+        quality="high"
+        class="object-contain rounded"
+      />
+      
+    </div></script>
