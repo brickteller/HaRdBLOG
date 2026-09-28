@@ -137,7 +137,13 @@ const { activeNav } = Astro.props;
     </div>
     <!-- Astro Optimized CoLab Badge -->
     <div style="max-width: 110px; display: inline-flex; align-items: center; vertical-align: middle; margin-left: 12px; margin-right: auto;">
-      <Image 
+        <a 
+    href="https://fancolab.lego.com" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    style="display: inline-flex;"
+  >
+  <Image 
         src={recognitionBrick} 
         alt="Recognized LEGO® Fan Community Badge" 
         width={220}
@@ -146,6 +152,7 @@ const { activeNav } = Astro.props;
         quality="high"
         class="object-contain rounded"
       />
+      </a>
     </div>
   </div>
   <Hr />
