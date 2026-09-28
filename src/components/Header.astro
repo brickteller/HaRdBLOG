@@ -136,6 +136,19 @@ const { activeNav } = Astro.props;
       </nav>
     </div>
   </div>
+      <!-- Astro Optimized CoLab Badge -->
+    <div style="max-width: 110px; display: inline-flex; align-items: center; vertical-align: middle; margin-left: 12px; margin-right: auto;">
+      <Image 
+        src={recognitionBrick} 
+        alt="Recognized LEGO® Fan Community Badge" 
+        width={220}
+        height={110}
+        format="webp"
+        quality="high"
+        class="object-contain rounded"
+      />
+      
+    </div></script>
   <Hr />
 </header>
 
@@ -248,17 +261,3 @@ nav {
 
   // Runs on view transitions navigation
   document.addEventListener("astro:after-swap", toggleNav);
-
-    <!-- Astro Optimized CoLab Badge -->
-    <div style="max-width: 110px; display: inline-flex; align-items: center; vertical-align: middle; margin-left: 12px; margin-right: auto;">
-      <Image 
-        src={recognitionBrick} 
-        alt="Recognized LEGO® Fan Community Badge" 
-        width={220}
-        height={110}
-        format="webp"
-        quality="high"
-        class="object-contain rounded"
-      />
-      
-    </div></script>
