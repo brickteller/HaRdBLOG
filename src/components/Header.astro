@@ -1,18 +1,13 @@
 ---
-// 1. IMPORTS ALWAYS GO FIRST (Fences must be open)
 import { Image } from "astro:assets";
 import { LOGO_IMAGE, SITE } from "@config";
-// Make sure your 7MP PNG file is saved exactly at: src/assets/brick-of-recognition.png
 import recognitionBrick from "../assets/brick-of-recognition.png";
 
-// 2. EXPORTS / TYPE INTERFACES SECOND
 export interface Props {
   activeNav?: "posts" | "tags" | "about" | "search";
 }
 
-// 3. CONST VARIABLES THIRD
 const { activeNav } = Astro.props;
-// THE CLOSING FENCE SEALS ALL COMPONENT LOGIC SECURELY
 ---
 
 <header>
