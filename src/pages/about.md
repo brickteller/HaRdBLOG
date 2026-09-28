@@ -1,10 +1,10 @@
 ---
 layout: "../layouts/AboutLayout.astro"
 title: "About HaRdLUG"
-description: "About the Hampton Roads LEGO User Group."
+description: "The history, mission, and membership details of the Hampton Roads LEGO User Group."
 ---
 # About HaRdLUG
-HaRdLUG is a group of adults and older teens in the cities of Hampton Roads, Virginia using LEGO to connect with our local community and each other and celebrating that play is something you never outgrow.
+HaRdLUG is a group of adults and older teens in the region of Hampton Roads, Virginia using LEGO to connect with our local community and each other and celebrating that play is something you never outgrow.
 
 - We build to challenge ourselves, to relax, or for a creative outlet.
 - We use LEGO to share stories, to learn, or to teach.
@@ -30,7 +30,7 @@ As part of becoming a Recognized LEGO Fan Community, we will begin operating und
 ## What's with the name?
 The "HaRd" in our name is a creative abbreviation for one of the several names for our region, Hampton Roads, Virginia. Hampton Roads itself is the name of the historic waterway where the Chesapeake Bay, James River, and Elizabeth River all come together.
 
-The name has also come to collectively identify the Seven Citites in our area, Norfolk, Portsmouth, Virginia Beach, Chesapeake, Suffolk, Hampton, and Newport News. Friends in Williamsburg, nearby counties, and across the line in North Carolina are of course welcome too, but connections are more important than proximity, however they happen!
+The name Hampton Roads has also come to collectively identify the Seven Citites in our area, Norfolk, Portsmouth, Virginia Beach, Chesapeake, Suffolk, Hampton, and Newport News. Friends in Williamsburg, nearby counties, and across the line in North Carolina are of course welcome too, but connections are more important than proximity, however they happen!
 
 ## Feedback & Suggestions
 If you have any suggestions/feedback about the website or HaRdLUG, you can contact the webmaster (Mark) via [my email](mailto:leggodt@duck.com) or reach out to our [leadership team](mailto:hardlug2002@gmail.com) about other matters.
