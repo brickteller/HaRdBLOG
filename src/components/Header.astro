@@ -1,6 +1,7 @@
 ---
 import { Image } from "astro:assets";
 import { LOGO_IMAGE, SITE } from "@config";
+import LinkButton from "./LinkButton.astro";
 import recognitionBrick from "../assets/brick-of-recognition.png";
 
 export interface Props {
@@ -9,6 +10,7 @@ export interface Props {
 
 const { activeNav } = Astro.props;
 ---
+
 <header>
   <a id="skip-to-content" href="#main-content">Skip to content</a>
   <div class="nav-container">
@@ -50,7 +52,11 @@ const { activeNav } = Astro.props;
           aria-label="RSS feed"
           title="RSS Feed"
         >
-          RSS
+          <svg xmlns="http://w3.org" class="rss-icon"
+            ><path
+              d="M19.003 3H4.997A1.998 1.998 0 0 0 3 4.997v14.006A1.998 1.998 0 0 0 4.997 21h14.006A1.998 1.998 0 0 0 21 19.003V4.997A1.998 1.998 0 0 0 19.003 3zM6 18a2 2 0 1 1 .001-4.001A2 2 0 0 1 6 18zm5.226 0c0-2.881-2.345-5.226-5.226-5.226v-2.072a7.298 7.298 0 0 1 7.298 7.298h-2.072zm3.844 0C15.07 12.934 10.934 8.8 6 8.8V6.728A13.275 13.275 0 0 1 19.272 18h-2.202z"
+            ></path>
+          </svg>
         </a>
       </div>
 
