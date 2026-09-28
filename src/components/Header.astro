@@ -1,9 +1,7 @@
 ---
-import { Image } from "astro:assets";
 import { LOGO_IMAGE, SITE } from "@config";
 import Hr from "./Hr.astro";
 import LinkButton from "./LinkButton.astro";
-import recognitionBrick from "../assets/brick-of-recognition.png";
 
 export interface Props {
   activeNav?: "posts" | "tags" | "about" | "search";
@@ -46,26 +44,6 @@ const { activeNav } = Astro.props;
             ></path>
           </svg>
           <span class="sr-only">RSS Feed</span>
-        </a>
-      </div>
-
-      <!-- Right-Side CoLab Badge (Linked to LAN Portal) -->
-      <div class="hidden md:inline-flex items-center ml-auto mr-4" style="max-width: 90px; vertical-align: middle;">
-        <a 
-          href="https://lego.com" 
-          target="_blank" 
-          rel="noopener noreferrer"
-          style="display: inline-flex;"
-        >
-          <Image 
-            src={recognitionBrick} 
-            alt="Recognized LEGO® Fan Community Badge" 
-            width={180}
-            height={90}
-            format="webp"
-            quality="high"
-            class="object-contain rounded hover:opacity-80 transition-opacity"
-          />
         </a>
       </div>
 
