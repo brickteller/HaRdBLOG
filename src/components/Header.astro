@@ -1,15 +1,3 @@
----
-import { Image } from "astro:assets";
-import { LOGO_IMAGE, SITE } from "@config";
-import recognitionBrick from "../assets/brick-of-recognition.png";
-
-export interface Props {
-  activeNav?: "posts" | "tags" | "about" | "search";
-}
-
-const { activeNav } = Astro.props;
----
-
 <header>
   <a id="skip-to-content" href="#main-content">Skip to content</a>
   <div class="nav-container">
