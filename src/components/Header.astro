@@ -84,7 +84,21 @@ const { activeNav } = Astro.props;
             <line x1="6" y1="6" x2="18" y2="18" class="close"></line>
           </svg>
         </button>
-        <ul id="menu-items" class="display-none sm:flex">
+        <ul id="menu-items" class="display-none sm:flex items-center">
+          <!-- Your Right-Side CoLab Badge -->
+          <li style="margin-right: 15px; display: inline-flex; align-items: center; vertical-align: middle;">
+            <Image 
+              src={recognitionBrick} 
+              alt="Recognized LEGO® Fan Community Badge" 
+              width={160}
+              height={80}
+              format="webp"
+              quality="high"
+              style="width: 80px; height: auto;"
+              class="object-contain rounded"
+            />
+          </li>
+
           <li>
             <a href="/posts/" class={activeNav === "posts" ? "active" : ""}>
               Posts
@@ -100,6 +114,7 @@ const { activeNav } = Astro.props;
               About
             </a>
           </li>
+        </ul>
 <li>
   <a
     href="/calendar/"
